@@ -11,6 +11,20 @@
     border: none; /* Optional: removes the border */
 }
 
+.card img{
+    height: 400px;
+}
+
+
+.card-text {
+    max-height: 3.6em; /* Adjust based on line height */
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2; /* Limit to 2 lines */
+    text-overflow: ellipsis; /* Show ellipsis if text overflows */
+}
+
 #home {
     background: 
     linear-gradient(
